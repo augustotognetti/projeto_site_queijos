@@ -4,8 +4,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 .title{
@@ -13,8 +13,8 @@
     z-index: 4;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 15%;
+    width: 100vw;
+    height: 15vh;
     background-color: rgb(36, 36, 36);
 }
 
@@ -22,9 +22,11 @@
     position: absolute;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 238, 0);
-    font-size: 100px;
-    bottom: -80%;
-    left: 15%;
+    font-size: 5vw;
+    left: 13vw;
+    top: 1.5vh;
+    bottom: 70vh;
+    
 }
 .imgtitle{
     position: absolute;
@@ -39,43 +41,43 @@
 .menu{
     position: absolute;
     z-index: 5;
-    left: 12.5%;
-    bottom: 65%;
-    top: 15%;
-    width: 80%;
-    height: 5%;
+    left: 12.5vw;
+    bottom: 65vh;
+    top: 15vh;
+    width: 80vw;
+    height: 5vh;
     background-color: rgb(78, 75, 75);
     opacity: 0.88;
-    border: 2px solid;
-    border-style: solid;
     border-bottom-right-radius: 15px;
 
 }
 
 .menutext{
     position: absolute;
-    text-indent: 10%;
+    text-indent: 1vw;
     writing-mode: horizontal-tb;
-    font-size: 33px;
+    font-size: 2vw;
 }
 
 a:link{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    color: cornflowerblue;
 }
 
 a:visited{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    color: blue;
 }
 
 .content{
     position: absolute;
-    bottom: 5%;
+    bottom: 5vh;
     right: 0;
     z-index: 4;
-    width: 100%;
-    height: 75%;
+    width: 100vw;
+    height: 75vh;
     text-align: center;
 }
 
@@ -88,8 +90,8 @@ a:visited{
     bottom: 0;
     left: 0;
     z-index: 3;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 .footer{
@@ -98,24 +100,25 @@ a:visited{
     z-index: 4;
     bottom: 0;
     left: 0;
-    width: 100%;
-    height: 5%;
+    width: 100vw;
+    height: 5vh;
+    box-shadow: 5px 3px 10px 6px rgb(255, 255, 255);
 }
 
 .textfooter1{
     position: absolute;
     color: white;
-    left: 1%;
-    top: 1%;
-    bottom: 1%;
-    font-size: 80%;
+    left: 1vw;
+    top: 0.3vh;
+    bottom: 2vh;
+    font-size: 0.8vw;
 }
 
 .textfooter2{
     position: absolute;
     color: white;
-    left: 20%;
-    top: 1%;
-    bottom: 1%;
-    font-size: 80%;
+    left: 20vw;
+    top: 0.3vh;
+    bottom: 2vh;
+    font-size: 0.8vw;
 }
