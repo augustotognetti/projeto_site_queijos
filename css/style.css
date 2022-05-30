@@ -38,21 +38,35 @@
 }
 .menu{
     position: absolute;
-    z-index: 3;
-    left: 3%;
-    bottom: 39%;
-    top: 30%;
-    width: 12%;
-    height: 60%;
+    z-index: 5;
+    left: 12.5%;
+    bottom: 65%;
+    top: 15%;
+    width: 80%;
+    height: 5%;
     background-color: rgb(78, 75, 75);
     opacity: 0.88;
-    text-align: center;
-    font-size: 33px;
     border: 2px solid;
     border-style: solid;
-    border-width: 2px;
-    border-radius: 10%;
+    border-bottom-right-radius: 15px;
 
+}
+
+.menutext{
+    position: absolute;
+    text-indent: 10%;
+    writing-mode: horizontal-tb;
+    font-size: 33px;
+}
+
+a:link{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+a:visited{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
 }
 
 .content{
