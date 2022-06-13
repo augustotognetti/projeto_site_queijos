@@ -22,9 +22,11 @@
     position: absolute;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 238, 0);
-    font-size: 350%;
+    font-size: 375%;
     font-weight: bold;
     left: 16%;
+    padding-top: 1%;
+    padding-bottom: 0;
 }
 .imgtitle{
     position: absolute;
@@ -43,7 +45,7 @@
     bottom: 68%;
     top: 13%;
     width: 80%;
-    height: 7%;
+    height: 5%;
     background-color: rgb(49, 48, 48);
     opacity: 0.85;
     border-bottom-right-radius: 15px;
@@ -136,17 +138,19 @@ a:hover{
 .textfooter1{
     position: absolute;
     color: white;
-    left: 1%;
+    left: 30%;
     top: 0.3%;
     bottom: 2%;
     font-size: 70%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .textfooter2{
     position: absolute;
     color: white;
-    left: 20%;
+    left: 50%;
     top: 0.3%;
     bottom: 2%;
     font-size: 70%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
