@@ -6,10 +6,10 @@
     width: 100%;
     max-height: 100vh;
     height: 100%;
-    background-color: rgb(117, 117, 117);
+    background-color: rgb(134, 228, 228);
 }
 
-.title{
+.header{
     position: absolute;
     top: 0;
     left: 0;
@@ -18,82 +18,91 @@
     background-color: rgb(0, 0, 0);
 }
 
+.title{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 14%;
+    width: 33%;
+    height: 100%;
+}
+
 .texttitle{
     position: absolute;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(255, 238, 0);
-    font-size: 375%;
+    color: rgb(231, 133, 76);
+    font-size: 325%;
     font-weight: bold;
-    left: 16%;
-    padding-top: 1%;
-    padding-bottom: 0;
 }
-.imgtitle{
+
+.imgheader{
     position: absolute;
     left: 0;
     top: 0;
-    width: 14.65%;
-    height: 250%;
+    width: 12.65%;
+    height: 225%;
     background-color: rgb(231, 133, 76);
     border-bottom-right-radius: 20%;
     border-bottom-right-radius: 5%;
 }
+
 .menu{
     position: absolute;
     z-index: 5;
-    left: 14.65%;
-    bottom: 68%;
-    top: 13%;
-    width: 80%;
-    height: 5%;
-    background-color: rgb(49, 48, 48);
-    opacity: 0.85;
-    border-bottom-right-radius: 15px;
+    bottom: 0;
+    top: 0;
+    left: 45.65%;
+    width: 54.35%;
+    height: 100%;
+    line-height: 0;
+    font-size: 115%;
 }
 
-.menutext1{
+.menu-link-1{
     position: absolute;
-    z-index: 5;
-    left: 2%;
-    font-size: 130%;
-    writing-mode: horizontal-tb;
-    line-height: 0;
+    top: 30%;
+    bottom: 11%;
+    left: 0;
+    width: 10%;
+    height: 49%;
 }
-.menutext2{
+
+.menu-link-2{
     position: absolute;
-    z-index: 5;
+    top: 30%;
+    bottom: 11%;
     left: 11%;
-    font-size: 130%;
-    writing-mode: horizontal-tb;
-    line-height: 0;
+    width: 25%;
+    height: 49%;
 }
-.menutext3{
+
+.menu-link-3{
     position: absolute;
-    z-index: 5;
-    left: 31%;
-    font-size: 130%;
-    writing-mode: horizontal-tb;
-    line-height: 0;
+    top: 30%;
+    bottom: 11%;
+    left: 36.5%;
+    width: 20%;
+    height: 49%;
 }
-.menutext4{
+
+.menu-link-4{
     position: absolute;
-    z-index: 5;
-    left: 51%;
-    font-size: 130%;
-    writing-mode: horizontal-tb;
-    line-height: 0;
+    top: 30%;
+    bottom: 11%;
+    left: 57%;
+    width: 23%;
+    height: 49%;
 }
 
 a:link{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    color: cornflowerblue;
+    color: rgb(184, 184, 184);
 }
 
 a:visited{
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    color: cornflowerblue;
+    color: rgb(184, 184, 184);
 }
 
 a:hover{
@@ -103,26 +112,87 @@ a:hover{
 
 .content{
     position: absolute;
+    top: 13%;
     bottom: 5%;
-    right: 15%;
-    left: 15%;
-    z-index: 4;
-    width: 70%;
-    height: 75%;
-}
-
-.textcontent{
-   text-align: center;
-   font-size: 85%;
-}
-
-.bgimg{
-    position: absolute;
-    bottom: 0;
     left: 0;
-    z-index: 3;
+    z-index: 4;
     width: 100%;
+    height: 82%;
+}
+
+.content-alignment{
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    width: 70%;
+    margin-top: 1.5%;
+}
+
+.inner-content-1{
+    position: absolute;
     height: 100%;
+    width: 50%;
+}
+
+.inner-content-2{
+    position: absolute;
+    height: 100%;
+    width: 49%;
+    left: 51%;
+    padding-top: 3%;
+}
+
+.inner-content-3{
+    position: absolute;
+    height: 100%;
+    width: 49%;
+    left: 51%;
+}
+
+.img1{
+    position: absolute;
+    top: 90%;
+    left: 0;
+    height: 1000%;
+    width: 100%;
+}
+
+.img2{
+    position: absolute;
+    top: 90%;
+    left: 0;
+    height: 1000%;
+    width: 100%;
+}
+
+.imggorgonzola{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    height: 480%;
+    width: 48%;
+}
+
+.imgminas{
+    position: absolute;
+    top: 570%;
+    left: 30%;
+    height: 490%;
+    width: 55%;
+}
+
+.imgmuçarela{
+    position: absolute;
+    top: 1100%;
+    left: 30%;
+    height: 490%;
+    width: 45%;
+}
+
+p{
+   font-size: 120%;
+   color: rgb(0, 0, 0);
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer{
@@ -131,26 +201,33 @@ a:hover{
     z-index: 4;
     bottom: 0;
     left: 0;
+    max-width: 100%;
     width: 100%;
+    max-height: 5%;
     height: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.textfooter1{
+.footer-content-1{
     position: absolute;
     color: white;
-    left: 30%;
-    top: 0.3%;
-    bottom: 2%;
-    font-size: 70%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 40%;
+    font-size: 75%;
+    margin-top: 0.6%;
 }
 
-.textfooter2{
+.footer-content-2{
     position: absolute;
-    color: white;
+    top: 12%;
+    left: 48%;
+    width: 1.55%;
+    height: 70%;
+}
+
+.footer-content-3{
+    position: absolute;
+    top: 12%;
     left: 50%;
-    top: 0.3%;
-    bottom: 2%;
-    font-size: 70%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 1.55%;
+    height: 70%;
 }
