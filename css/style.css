@@ -6,7 +6,7 @@
     width: 100%;
     max-height: 100vh;
     height: 100%;
-    background-color: rgb(134, 228, 228);
+    background-image: linear-gradient(to top right, rgb(0, 89, 89), rgb(218, 80, 0));
 }
 
 .header{
@@ -24,6 +24,7 @@
     bottom: 0;
     left: 14%;
     width: 33%;
+    max-height: 100%;
     height: 100%;
 }
 
@@ -42,6 +43,8 @@
     width: 12.65%;
     height: 225%;
     background-color: rgb(231, 133, 76);
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
     border-bottom-right-radius: 20%;
     border-bottom-right-radius: 5%;
 }
@@ -122,76 +125,120 @@ a:hover{
 
 .content-alignment{
     position: absolute;
-    left: 15%;
-    right: 15%;
+    top: 5%;
+    left: 16%;
+    bottom: 5%;
+    right: 14%;
     width: 70%;
-    margin-top: 1.5%;
+    height: 85%;
 }
 
 .inner-content-1{
     position: absolute;
+    top: 0;
     height: 100%;
     width: 50%;
 }
 
 .inner-content-2{
     position: absolute;
-    height: 100%;
-    width: 49%;
-    left: 51%;
-    padding-top: 3%;
+    top: 5%;
+    left: 50%;
+    height: 95%;
+    width: 48.5%;
+    margin-left: 1.5%;
 }
 
 .inner-content-3{
     position: absolute;
+    top: 0;
+    left: 50%;
     height: 100%;
     width: 49%;
-    left: 51%;
+    margin-left: 1%;
 }
 
 .img1{
     position: absolute;
-    top: 90%;
-    left: 0;
-    height: 1000%;
-    width: 100%;
+    height: 65%;
+    width: 85%;
+    border-radius: 8px;
 }
 
 .img2{
     position: absolute;
-    top: 90%;
-    left: 0;
-    height: 1000%;
+    height: 61%;
+    width: 98%;
+    border-radius: 8px;;
+}
+
+.text-gorgonzola{
+    position: absolute;
+    top: 0;
+    left: 13%;
+    right: 30%;
+    width: 45%;
+    height: 25%;
+}
+
+.gorgonzola-div{
+    position: absolute;
+    top: 10%;
+    width: 85%;
+    left: 5%;
+}
+
+.text-minas{
+    position: absolute;
+    top: 34.5%;
+    left: 11%;
     width: 100%;
+    height: 25%;
+}
+
+.minas-div{
+    position: absolute;
+    top: 44%;
+    width: 85%;
+    left: 7%;
+}
+
+.text-muçarela{
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    width: 100%;
+    height: 25%;
+}
+
+.muçarela-div{
+    position: absolute;
+    top: 74.75%;
+    width: 85%;
+    left: 7%;
 }
 
 .imggorgonzola{
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    height: 480%;
-    width: 48%;
+    width: 45%;
+    height: 45%;
+    border-radius: 8px;
 }
 
 .imgminas{
-    position: absolute;
-    top: 570%;
-    left: 30%;
-    height: 490%;
-    width: 55%;
+    width: 40%;
+    height: 40%;
+    border-radius: 8px;
 }
 
 .imgmuçarela{
-    position: absolute;
-    top: 1100%;
-    left: 30%;
-    height: 490%;
-    width: 45%;
+    width: 40%;
+    height: 40%;
+    border-radius: 8px;
 }
 
 p{
    font-size: 120%;
-   color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
    font-family: Arial, Helvetica, sans-serif;
 }
 
